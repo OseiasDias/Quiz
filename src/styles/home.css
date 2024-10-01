@@ -1,0 +1,88 @@
+
+.seccao-home{
+   
+    height: 100vh !important;
+
+}
+
+.itens{
+    background-color: #0c122c;
+    margin: 10px 0;
+    padding:11px 20px;
+    border-radius: 1em ;
+    font-size: 1.1em;
+    font-weight: 400;
+    transition: all 300ms ease-in;
+    border: 1px solid #dddddd;
+}
+
+.itens:hover{
+    transform: scale(1.06);
+    border: 1px solid #dddddd;
+}
+
+.seccao-text h1 span{
+    font-weight: 300;
+}
+
+.seccao-text h1{
+    font-size: 3.6em;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.seccao-text h1 + span {
+    font-size: 1.2em;
+}
+
+.seccao-text{
+   margin-top: 170px;
+
+}
+
+
+@media (max-width:992px){
+    .seccao-text{
+        margin-top: 200px;
+        margin-bottom: 35px; 
+    }
+
+    .seccao-text h1{
+        font-size: 2.6em;
+        font-weight: 600;
+    }
+    
+    .seccao-text h1 + span {
+        font-size: 1.1em;
+    }
+    
+  
+}
+
+@media (max-width:768px){
+    .seccao-text{
+        margin-top: 70px !important;
+        margin-bottom: -15px !important; 
+    }
+
+    .seccao-text h1{
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+    
+    .seccao-text h1 + span {
+        font-size: 1.1em;
+    }
+    
+   
+
+    .itens:hover{
+        transform: scale(1.03);
+       
+    }
+    
+}
+
+.seccao-option{
+    margin-top: 60px;
+}

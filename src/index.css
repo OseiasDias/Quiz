@@ -1,0 +1,146 @@
+html::-webkit-scrollbar{
+  background-color: #0c122c;
+  width: 10px !important;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #dddddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #dddddd;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+}
+/*
+.corpo-unico {
+  background-color: #0c122c;
+  height: 100vh !important;
+}*/
+
+.seccao-home{
+  background-image: url("./assets/img/bg-desktop.png");
+  background-size: cover;
+  height: 100vh !important; /* Altura da div */
+  background-position: center;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
+@media (max-width:768px){
+  .seccao-home{
+    background-image: url("./assets/img/bg-mobile.png");
+    background-size: cover;
+    height: 140vh !important; /* Altura da div */
+    background-position: center;
+    z-index: 1;
+    background-attachment: fixed;
+  }
+}
+
+.arrajoItens{
+    background-color: #00000000;
+    border: none;
+    font-size: 1.8em;
+    font-weight: 800;
+}  
+
+.arrajoItens .fs-3{
+  font-size: 3em !important;
+}
+
+.arrajoItens:hover{
+  border: none;
+  transform: none;
+}
+
+.botaoSair{
+  background-color: #00000000;
+  border: none;
+  color: #fff;
+  transition: all 300ms ease-in-out;
+}
+
+.botaoSair:hover{
+  transform:scale(1.1) ;
+}
+
+
+.colorirLetra{
+  background-color: #fff;
+  border-radius: .2em;
+  color: #0c122c;
+  padding: 3px;
+  text-align: end !important;
+  margin-right: 15px;
+  font-weight: 700;
+  padding-left: 10px;
+  
+}
+
+.activada:focus{
+  border: 2px solid #ffa500 !important;
+}
+
+
+.activada1:focus{
+  border: 2px solid #dc3545 !important;
+
+}
+.activada2:focus{
+  border: 2px solid #28a745 !important;
+  
+}
+
+.activada3:focus{
+  border: 2px solid #007bff !important;
+  
+}
+.activada0:focus{
+  border: 3px solid #000 !important;
+}
+
+.activada4:focus{
+  border: 2px solid #ffc107 !important;
+}
+
+.activada5:focus{
+  border: 2px solid #17a2b8 !important;
+}
+
+.activada6:focus{
+  border: 2px solid #66ff66!important;
+}
+
+.activada7:focus{
+  border: 2px solid #b366ff!important;
+}
+
+
+
+[class*="ativada"]:hover {
+  /* Suas propriedades CSS aqui */
+  border: 3px solid #fff !important;
+}
+
+
+@media (min-width:768px){
+
+  .resultados1{
+    bottom: 10px !important;
+    position: absolute !important;
+  
+  }
+}
